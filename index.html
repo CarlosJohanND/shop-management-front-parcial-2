@@ -20,10 +20,35 @@
         </div>
 
         <div class="row justify-content-center mt-3 mb-3">
-            <div class="col-8 mt-2 mb-2 bg-success-subtle">
-                <div class="card">
-                    <div></div>
+            <div class="col-8 mt-2 mb-2">
+                <div class="card bg-success-subtle">
+                    <div class="card-header bg-info-subtle text-center">
+                        <h3>Iniciar seccion</h3>
+                        <p>Escriba los datos requeridos</p>
+                    </div>
+                    <div class="card-body bg-dark-subtle">
 
+                        <div id="alert">
+
+                        </div>
+
+                        <form id="formLogin">
+                            <div class="mb-3">
+                                <label for="user_name" class="form-label">User Name</label>
+                                <input type="user_name" class="form-control" id="user_name" aria-describedby="user_nameHelp" required>
+                                <div id="user_nameHelp" class="form-text">Nunca compartiremos tu correo</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="Password" required>
+                            </div>
+                        
+                                <button type="submit" class="btn btn-success d-block mx-auto bg-success.bg-gradient">Enviar</button>
+                        </form>
+                        </div>
+                    <div class="card-footer">
+                        @shopManagementFrontParcial
+                    </div>
                 </div>
             </div>
         </div>
