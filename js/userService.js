@@ -135,4 +135,3 @@ function showModalUser(user){
     )
     modal.show()
 }
-//STARS ARE FORMING, BIG BANG STORMING; so leave a HOLE IN THE FIRMAMENT, leaving for a WORLD BEYOND, put HOLE IN THE SKY, leaving for a WORLD BEYOND
