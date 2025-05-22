@@ -1,66 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-</head>
-<body class="bg-primary bg-opacity-10">
-    <div class="container ">
-        <div class="row mt-2">
-            <div class="col">
-                <nav class="navbar bg-success bg-opacity-25">
-                    <div class="container-fluid">
-                        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-success bg-opacity-10">
-                            <div class="container-fluid">
-                              <a class="navbar-brand" href="#">Empresa</a>
-                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                              </button>
-                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                  <li class="nav-item">
-                                    <a class="nav-link active link-offset-1" aria-current="page" href="dashboard.html">Inicio</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link link-offcet" href="#users" onclick="getUsers()">Usuario</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#products" onclick="getProducts()">Productos</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#carrito_de_compras" onclick="getCarritoDeCompras()">Carrito de compras</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#" onclick="logout()">Salir</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </nav>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <div class="row mt-3 mb-3 justify-content-center">
-            <div class="col-8 mb-2 mt-2">
-                <div class="card border-black border-3">
-                    <div class="card-header bg-success-subtle text-center border-black border-3" id="cardHeader ">
-                        <h4>Bienvenido a la tienda</h4>
-                    </div>
-                    <div class="card-body bg-info-subtle border-black border-1">
-                        <div id="alert"></div>
-                        <div id="info">
 
-                        </div>
-                    <div class="card-footer bg-info-subtle border-black border-1">
-                      <h6>Escoja una de las opciones</h6>
-                    </div>
-                    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+
+<body class="bg-primary bg-opacity-10">
+  <div class="container ">
+    <div class="row mt-2">
+      <div class="col">
+        <nav class="navbar bg-success bg-opacity-25">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary bg-success bg-opacity-10">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Empresa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active link-offset-1" aria-current="page" href="shop.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-offcet" href="#users" onclick="getUsers()">Usuario</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#products" onclick="getProducts()">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#carrito_de_compras" onclick="getCarritoDeCompras()">Carrito de
+                        compras</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" onclick="logout()">Salir</a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-        </div>
+              </div>
+            </nav>
+          </div>
+        </nav>
+      </div>
     </div>
+    <div class="row mt-3 mb-3 justify-content-center">
+      <div class="col-8 mb-2 mt-2">
+        <div class="card border-black border-3">
+          <div class="card-header bg-success-subtle text-center border-black border-3" id="cardHeader ">
+            <h4>Bienvenido a la tienda</h4>
+          </div>
+          <div class="card-body bg-info-subtle border-black border-1">
+            <div id="alert"></div>
+            <div id="info">
+
+            </div>
+            <div class="card-footer bg-info-subtle border-black border-1">
+              <h6>Escoja una de las opciones</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/productService.js"></script>
+  
 </body>
+
 </html>
